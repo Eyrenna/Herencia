@@ -67,3 +67,21 @@ public class EarlyBindingTest {
         System.out.println("------------------------------");
     }
 }
+
+/*EarlyBindingSuper
+100
+Inside EarlyBindingSuper.print()
+------------------------------
+EarlyBindingSub
+200
+Inside EarlyBindingSub.print()
+------------------------------
+EarlyBindingSuper
+100
+Inside EarlyBindingSuper.print()
+------------------------------
+EarlyBindingSuper
+100
+Inside EarlyBindingSuper.print()
+------------------------------
+*/
