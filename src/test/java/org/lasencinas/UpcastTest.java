@@ -10,7 +10,7 @@ public class UpcastTest {
 
         // Print names
         EmpUtil.printName(emp);
-        EmpUtil.printName(mgr); // Upcasting at work
+        EmpUtil.printName(mgr); // Upcasting at work /*Se realiza un upcasting implícicto*/
 
         //isEquals
         System.out.println(mgr.equals(emp)); // prints true /*en ese ejemplo no porque los nombres son diferentes*/
